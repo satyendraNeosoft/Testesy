@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "satyendraNeosoft" => "satyendra.bhati@neosoftmail.com" }
    spec.platform     = :ios, "14.5"
-  spec.source       = { :git => "https://github.com/satyendraNeosoft/Testesy/.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/satyendraNeosoft/Testesy.git", :tag => spec.version.to_s }
 spec.source_files  = "EmbedTest/**/*.{swift}"
   spec.swift_versions = "5.0"
 end
