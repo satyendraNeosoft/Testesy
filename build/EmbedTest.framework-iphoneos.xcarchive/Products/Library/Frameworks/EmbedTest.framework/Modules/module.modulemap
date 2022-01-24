@@ -1,0 +1,11 @@
+framework module EmbedTest {
+  umbrella header "EmbedTest.h"
+
+  export *
+  module * { export * }
+}
+
+module EmbedTest.Swift {
+    header "EmbedTest-Swift.h"
+    requires objc
+}
